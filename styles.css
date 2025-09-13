@@ -6,8 +6,14 @@
 /* Scrollbar styling for better aesthetics */ ::-webkit-scrollbar { width: 8px; } ::-webkit-scrollbar-track { background: #1e293b; } ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; } ::-webkit-scrollbar-thumb:hover { background: #475569; }
 /* Chart container styling */ .chart-container { position: relative; height: 300px; width: 100%; }
 /* Form elements styling */ select, .toolbar select { background: #0b1220; border: 1px solid #1e293b; color: #e5e7eb; padding: 6px 8px; border-radius: 8px; }
-/* Disabled button state */ button:disabled { background-color: #6b7280; cursor: not-allowed; } 
-button:disabled:hover { background-color: #6b7280; }
+/* Disabled button state */ 
+button:disabled { 
+	background-color: #6b7280; 
+	cursor: not-allowed; 
+}
+button:disabled:hover { 
+	background-color: #6b7280; 
+}
 /* Active state for buttons */ button:active { transform: scale(0.98); }
 /* Focus state for inputs and buttons */ input:focus, select:focus, button:focus { outline: 2px solid #2563eb; outline-offset: 2px; }
 /* Tooltip styling */ .tooltip { position: relative; display: inline-block; cursor: pointer; } .tooltip .tooltiptext { visibility: hidden; width: 120px; background-color: #374151; color: #fff; text-align: center; border-radius: 6px; padding: 5px; position: absolute; z-index: 1; bottom: 125%; left: 50%; margin-left: -60px; opacity: 0; transition: opacity 0.3s; } .tooltip:hover .tooltiptext { visibility: visible; opacity: 1; }
@@ -17,3 +23,4 @@ button:disabled:hover { background-color: #6b7280; }
 /* Loading spinner for async actions */ .spinner { border: 4px solid #f3f3f3; border-top: 4px solid #2563eb; border-radius: 50%; width: 24px; height: 24px; animation: spin 1s linear infinite; display: inline-block; } @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 /* Notification types */ .notif-info { border-left: 4px solid #3b82f6; } .notif-success { border-left: 4px solid #10b981; } .notif-warning { border-left: 4px solid #f59e0b; } .notif-error { border-left: 4px solid #ef4444; }
 /* Dark mode toggle (for future use) */ .dark-mode { background: #0f172a; color: #e2e8f0; } .dark-mode header { border-bottom: 1px solid #1e293b; } .dark-mode .card { background: #111827; border: 1px solid #1f2937; } .dark-mode .load { background: #0b1220; border: 1px solid #1e293b; } .dark-mode .tile { background: #0b1220; border: 1px solid #1e293b; } .dark-mode table th { background-color: #374151; } .dark-mode tr:nth-child(even) { background-color: #1e293b; } .dark-mode tr:hover { background-color: #2563eb; color: #fff; }  /* End of styles.css */
+    
